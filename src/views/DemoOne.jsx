@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function DemoOne() {
+function DemoOne(props) {
   return (
     <div>DemoOne</div>
   )
 }
+
+export default DemoOne
