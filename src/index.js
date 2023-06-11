@@ -6,12 +6,11 @@ import reportWebVitals from "./reportWebVitals";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <DemoOne title="nihao">
-      <span>哈哈哈</span>
-      <h1>GOOD</h1>
+      <span slot="header ">我是页眉</span>
+      <h1 slot="footer">我是页脚</h1>
     </DemoOne>
 );
 
-console.log(React.createElement(DemoOne));
 
 
 
