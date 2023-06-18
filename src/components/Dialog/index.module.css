@@ -1,0 +1,21 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.wrapper{
+  background-color: aqua;
+  width: 50%;
+  min-width: 300px;
+  max-width: 500px;
+  padding: 20px;
+}
+.back{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0.2;
+}

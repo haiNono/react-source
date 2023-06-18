@@ -5,12 +5,46 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    #jk{
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-size: cover;
+      background-image: url("https://ts1.cn.mm.bing.net/th?id=OIP-C.Rmu2HNfPTot9nN9kWt0dbgHaNK&w=187&h=333&c=8&rs=1&qlt=90&o=6&dpr=2&pid=3.1&rm=2");
+      position: relative;
+    }
+    .child{
+      width: 200px;
+      height: 200px;
+      color: red;
+      background-color: rgb(0,0,0);
+      white-space: normal;
+      font-size: 30px;
+      word-wrap: break-word;
+    }
+    .test{
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      background-color: rgba(255,255,255,0.5);
+    }
+  </style>
 </head>
 <body>
-  <div class="tmp" id="jk"></div>
-  <script>
-    const div = document.getElementById('jk')
-    console.log(div);
-  </script>
+  <div class="tmp" id="jk" >
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child">hodsaiohdisajdpjsaopdjsoa;mdl;s;amdl;;smal;dmsla;ds;amdl;</div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="test"></div>
+  </div>
+  
 </body>
 </html>
